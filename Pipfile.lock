@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0cf7d68026e8f56fb824ad1b876885925e35d0120580bf0af6870a6a05507f02"
+            "sha256": "8dffa41da95933e332ef126d236229cfe85e44545b1c37789e7518b0186bb15d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -481,7 +481,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
         "tldextract": {
@@ -561,5 +561,30 @@
             "version": "==6.0"
         }
     },
-    "develop": {}
+    "develop": {
+        "aiosmtpd": {
+            "hashes": [
+                "sha256:f821fe424b703b2ea391dc2df11d89d2afd728af27393e13cf1a3530f19fdc5e",
+                "sha256:f9243b7dfe00aaf567da8728d891752426b51392174a34d2cf5c18053b63dcbc"
+            ],
+            "index": "pypi",
+            "version": "==1.4.4.post2"
+        },
+        "atpublic": {
+            "hashes": [
+                "sha256:53801cb5512a020aeeea3bf461bd67fc671b5ee82ba6f7bddd91c1b54a88a80a",
+                "sha256:88ff77dde0ecd921bb7a31f914faaf8b10fec0478bf4a8998f3be9c5ca1b47da"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==3.1.2"
+        },
+        "attrs": {
+            "hashes": [
+                "sha256:1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04",
+                "sha256:6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==23.1.0"
+        }
+    }
 }
